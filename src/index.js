@@ -21,3 +21,5 @@ app.post("/", (request, response) => {
 
     return response.status(201).send();
 })
+
+app.listen(3333);
